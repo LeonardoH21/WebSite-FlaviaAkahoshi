@@ -3,188 +3,288 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>PODOLOGIA AKAHOSHI - VILA MARIANA</title>
-    <meta name="description" content="PODOLOGIA AKAHOSHI - VILA MARIANA. Atendimento especializado em podologia em São Paulo, com foco em saúde, prevenção e bem-estar." />
+    <title>Podologia Akahoshi - Vila Mariana</title>
+    <meta
+      name="description"
+      content="Podologia Akahoshi na Vila Mariana. Atendimento especializado para a saúde dos pés, com acolhimento, higiene e orientação personalizada."
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="assets/css/styles.css" />
   </head>
   <body>
-    <header class="topbar" id="inicio">
+    <header class="site-header" id="cabecalho">
       <div class="container nav-wrapper">
-        <a class="brand" href="#inicio">PODOLOGIA <span>AKAHOSHI</span></a>
-        <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
-        <nav>
+        <a class="brand" href="#cabecalho" aria-label="Ir para o topo">
+          <span class="brand-mark">PA</span>
+          <span>
+            <strong>Podologia Akahoshi</strong>
+            <small>Vila Mariana</small>
+          </span>
+        </a>
+
+        <nav aria-label="Navegação principal">
           <ul class="nav-list">
-            <li><a href="#inicio">Início</a></li>
-            <li><a href="#avaliacoes">Avaliações</a></li>
-            <li><a href="#sobre">Sobre</a></li>
-            <li><a href="#procedimentos">Procedimentos</a></li>
+            <li><a href="#cabecalho">Cabeçalho</a></li>
+            <li><a href="#sobre">Sobre nós</a></li>
             <li><a href="#localizacao">Localização</a></li>
-            <li><a class="btn btn-sm" href="https://wa.me/5511974725498" target="_blank" rel="noopener noreferrer">Agendar agora</a></li>
-            <li><a class="btn btn-sm" href="https://www.instagram.com/podologiaakahoshi/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+            <li><a href="#porque">Por que escolher</a></li>
+            <li><a href="https://www.google.com/maps/search/?api=1&query=PODOLOGIA+AKAHOSHI+VILA+MARIANA" target="_blank" rel="noopener noreferrer">Avaliações</a></li>
           </ul>
         </nav>
+
+        <div class="header-actions">
+          <a class="header-phone" href="tel:+5511974725498">(11) 97472-5498</a>
+          <a class="nav-cta" href="https://wa.me/5511974725498" target="_blank" rel="noopener noreferrer">Agendar</a>
+        </div>
+
+        <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false">
+          ☰
+        </button>
       </div>
     </header>
 
     <main>
-      <section class="hero">
+      <section class="hero-section" aria-labelledby="hero-title">
         <div class="container hero-grid">
-          <div>
-            <p class="badge">Podólogo em São Paulo</p>
-            <p class="trust-line">4,9★ no Google • 238 avaliações</p>
-            <h1>PODOLOGIA AKAHOSHI - VILA MARIANA</h1>
-            <p>Cuidado especializado para a saúde dos pés em um ambiente limpo, moderno e acolhedor. Atendimento humanizado para você caminhar sem dor e com mais qualidade de vida.</p>
-            <div class="hero-cta">
-              <a class="btn" href="tel:+5511974725498">Ligar agora</a>
-              <a class="btn" href="https://wa.me/5511974725498" target="_blank" rel="noopener noreferrer">Agendar avaliação</a>
-              <a class="btn btn-outline" href="https://www.google.com/maps/search/?api=1&query=PODOLOGIA+AKAHOSHI+VILA+MARIANA" target="_blank" rel="noopener noreferrer">Como chegar</a>
-            </div>
-          </div>
-          <div class="hero-card">
-            <h2>Horário de funcionamento</h2>
-            <ul>
-              <li><strong>Segunda:</strong> 09:00–16:00</li>
-              <li><strong>Terça:</strong> 09:00–17:00</li>
-              <li><strong>Quarta:</strong> 09:00–17:00</li>
-              <li><strong>Quinta:</strong> 09:00–17:00</li>
-              <li><strong>Sexta:</strong> 09:00–17:00</li>
-              <li><strong>Sábado:</strong> 09:00–16:00</li>
-              <li><strong>Domingo:</strong> Fechado</li>
+          <div class="hero-copy">
+            <p class="hero-kicker">→ Quando caminhar bem faz diferença</p>
+            <h1 id="hero-title">Podologia especializada para cuidar dos seus pés com segurança.</h1>
+            <p class="hero-lead">
+              Atendimento com hora marcada na Vila Mariana, em ambiente limpo e acolhedor.
+              Ideal para adultos, idosos e pessoas que buscam conforto no dia a dia.
+            </p>
+
+            <ul class="hero-points" aria-label="Destaques do atendimento">
+              <li>Avaliação cuidadosa e orientação simples</li>
+              <li>Foco em higiene, biossegurança e conforto</li>
+              <li>Localização fácil com rota pelo Google Maps</li>
             </ul>
-            <p class="small-note">* Em feriados, os horários podem ser diferentes.</p>
+
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="https://wa.me/5511974725498" target="_blank" rel="noopener noreferrer">Agendar pelo WhatsApp</a>
+              <a class="btn btn-secondary" href="#localizacao">Ver localização</a>
+            </div>
+
+            <div class="trust-row" aria-label="Informações de confiança">
+              <a class="trust-link" href="https://www.google.com/maps/search/?api=1&query=PODOLOGIA+AKAHOSHI+VILA+MARIANA" target="_blank" rel="noopener noreferrer">
+                <strong>4,9★</strong>
+                <span>Avaliação no Google</span>
+              </a>
+              <a class="trust-link" href="https://www.google.com/maps/search/?api=1&query=PODOLOGIA+AKAHOSHI+VILA+MARIANA" target="_blank" rel="noopener noreferrer">
+                <strong>238</strong>
+                <span>Avaliações públicas</span>
+              </a>
+              <div>
+                <strong>Hora marcada</strong>
+                <span>Atendimento organizado</span>
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
-      <section class="reviews spotlight" id="avaliacoes">
-        <div class="container spotlight-grid">
+      <section class="section about-section" id="sobre" aria-labelledby="about-title">
+        <div class="container split-section">
           <div>
-            <p class="badge">Prova social forte</p>
-            <h2>Avaliações reais no Google</h2>
-            <p>A clínica mantém excelente reputação em atendimento, higiene e cuidado técnico. Clique para ver os depoimentos completos no perfil oficial do Google.</p>
-            <div class="hero-cta">
-              <a class="btn" href="https://www.google.com/maps/search/?api=1&query=PODOLOGIA+AKAHOSHI+VILA+MARIANA" target="_blank" rel="noopener noreferrer">Ver avaliações no Google</a>
-              <a class="btn btn-outline" href="https://www.instagram.com/podologiaakahoshi/" target="_blank" rel="noopener noreferrer">Ver Instagram</a>
-            </div>
+            <p class="eyebrow">Sobre nós</p>
+            <h2 id="about-title">Uma clínica pensada para cuidado, higiene e conforto.</h2>
+            <p>
+              A Podologia Akahoshi oferece atendimento especializado na Vila Mariana, com foco em
+              prevenção, orientação e bem-estar. Cada consulta é conduzida com escuta, avaliação cuidadosa
+              e explicações simples sobre o cuidado ideal para os pés.
+            </p>
+            <p>
+              O atendimento é feito com hora marcada para que o paciente tenha mais tranquilidade,
+              especialmente idosos e pessoas que precisam de acompanhamento recorrente.
+            </p>
           </div>
-          <div class="numbers-card">
-            <h3>Números que geram confiança</h3>
-            <div class="numbers-grid">
-              <div><strong>4,9★</strong><span>Nota média no Google</span></div>
-              <div><strong>238</strong><span>Avaliações públicas</span></div>
-              <div><strong>7 dias</strong><span>Suporte por WhatsApp</span></div>
-              <div><strong>100%</strong><span>Foco em biossegurança</span></div>
-            </div>
-          </div>
-        </div>
 
-        <div class="container testimonials-grid">
-          <article class="testimonial-card">
-            <div class="review-headline"><div class="avatar-circle">PK</div><div><h3>Patricia Kluppel</h3><p class="review-meta">Avaliação no Google • 5 estrelas</p><img class="stars-image" src="assets/images/stars-5.svg" alt="5 estrelas" /></div></div>
-            <p>O atendimento é ótimo e pontual, o local fácil de chegar e de estacionar, e o ambiente muito limpo e confortável. A Flávia é uma profissional excelente e o tratamento não poderia ser melhor.</p>
-            <a class="review-link" href="https://maps.app.goo.gl/yekdz3SKZUHjpUiK7" target="_blank" rel="noopener noreferrer">Conferir avaliação no Google</a>
-          </article>
-          <article class="testimonial-card">
-            <div class="review-headline"><div class="avatar-circle">MC</div><div><h3>Mariana Cavalari</h3><p class="review-meta">Avaliação no Google • 5 estrelas</p><img class="stars-image" src="assets/images/stars-5.svg" alt="5 estrelas" /></div></div>
-            <p>A Flavia é uma profissional atenciosa, muito competente e querida! O espaço é agradável, confortável e o atendimento é sempre impecável.</p>
-            <a class="review-link" href="https://maps.app.goo.gl/NLMssVuekJgyKo3x5" target="_blank" rel="noopener noreferrer">Ver avaliação da Mariana</a>
-          </article>
-          <article class="testimonial-card">
-            <div class="review-headline"><div class="avatar-circle">DS</div><div><h3>Debora Wyzard Soares</h3><p class="review-meta">Avaliação no Google • 5 estrelas</p><img class="stars-image" src="assets/images/stars-5.svg" alt="5 estrelas" /></div></div>
-            <p>Podologia realmente profissional! A Flavia é uma podóloga qualificada, trabalha de forma higiênica, e o consultório é bem estruturado, com cadeira confortável e ambiente acolhedor.</p>
-            <a class="review-link" href="https://maps.app.goo.gl/TjfiEB1YgU9VNns46" target="_blank" rel="noopener noreferrer">Ver avaliação da Debora</a>
-          </article>
-          <article class="testimonial-card">
-            <div class="review-headline"><div class="avatar-circle">CH</div><div><h3>Caio Henrique</h3><p class="review-meta">Avaliação no Google • 5 estrelas</p><img class="stars-image" src="assets/images/stars-5.svg" alt="5 estrelas" /></div></div>
-            <p>Faz 2 anos que trato meus pés na clínica e sempre foi excelente: agendamento, procedimento, atenção da profissional e ambiente limpo e organizado.</p>
-            <a class="review-link" href="https://maps.app.goo.gl/DqCoFZKAHMCdm39N9" target="_blank" rel="noopener noreferrer">Ver avaliação do Caio</a>
-          </article>
+          <div class="soft-card service-card">
+            <h3>Atendimentos comuns</h3>
+            <ul class="check-list">
+              <li>Unha encravada</li>
+              <li>Calos e calosidades</li>
+              <li>Rachaduras plantares</li>
+              <li>Correção ungueal</li>
+              <li>Cuidados preventivos</li>
+              <li>Avaliação personalizada</li>
+            </ul>
+          </div>
         </div>
       </section>
 
-      <section class="carousel-section">
+      <section class="section location-section" id="localizacao" aria-labelledby="location-title">
         <div class="container">
-          <h2>Conheça a clínica</h2>
-          <p class="carousel-subtitle">Carrossel automático para manter a atenção de quem visita o site.</p>
-          <div class="carousel" aria-label="Galeria da clínica">
-            <div class="slides">
-              <article class="slide active"><h3>Estrutura moderna e higienizada</h3><p>Espaço clean com protocolos de limpeza e biossegurança em todos os atendimentos.</p></article>
-              <article class="slide"><h3>Atendimento humanizado</h3><p>Cada paciente recebe atenção individual, avaliação detalhada e orientação personalizada.</p></article>
-              <article class="slide"><h3>Tratamentos especializados</h3><p>Podologia clínica para prevenção e cuidado contínuo da saúde dos pés.</p></article>
+          <div class="section-heading">
+            <p class="eyebrow">Localização</p>
+            <h2 id="location-title">Estamos na Vila Mariana, com acesso fácil por metrô, ônibus e carro.</h2>
+            <p>
+              Edifício Vila Mariana Tower - R. Cubatão, 929 - conjunto 35 - Vila Mariana,
+              São Paulo - SP, 04013-043.
+            </p>
+            <p>
+              A região tem acesso simples por vias importantes como Vergueiro, Domingos de Morais e
+              23 de Maio. Para quem vem de transporte público, há conexão pelas estações Ana Rosa,
+              Paraíso e Vila Mariana, além de pontos de ônibus próximos à Rua Cubatão.
+            </p>
+          </div>
+
+          <div class="map-layout">
+            <div class="map-card">
+              <iframe
+                title="Mapa da Podologia Akahoshi"
+                src="https://www.google.com/maps?q=PODOLOGIA+AKAHOSHI+-+VILA+MARIANA,+R.+Cubat%C3%A3o,+929,+S%C3%A3o+Paulo&output=embed"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
             </div>
+
+            <aside class="soft-card visit-card">
+              <h3>Informações para visita</h3>
+              <p><strong>Telefone:</strong> <a href="tel:+5511974725498">(11) 97472-5498</a></p>
+              <p><strong>Atendimento:</strong> segunda a sábado, com hora marcada.</p>
+              <p><strong>Referência:</strong> Vila Mariana Tower, com acesso pela Rua Cubatão e proximidade com metrô, ônibus e vias principais.</p>
+              <a class="btn btn-primary full-width" href="https://www.google.com/maps/search/?api=1&query=PODOLOGIA+AKAHOSHI+VILA+MARIANA" target="_blank" rel="noopener noreferrer">
+                Abrir rota no Google Maps
+              </a>
+              <a class="btn btn-secondary full-width" href="https://www.google.com/maps/search/?api=1&query=PODOLOGIA+AKAHOSHI+VILA+MARIANA" target="_blank" rel="noopener noreferrer">
+                Ver avaliações reais
+              </a>
+            </aside>
           </div>
-          <div class="dots" role="tablist" aria-label="Indicadores do carrossel"></div>
         </div>
       </section>
 
-      <section class="about" id="sobre">
-        <div class="container two-col">
-          <div class="info-box">
-            <h2>Sobre a clínica</h2>
-            <p>A PODOLOGIA AKAHOSHI - VILA MARIANA oferece atendimento com foco em prevenção, tratamento e bem-estar.</p>
-            <ul class="structured-list">
-              <li><strong>Missão:</strong> promover saúde e conforto para os pés.</li>
-              <li><strong>Público:</strong> atendimento adulto, idoso e preventivo.</li>
-              <li><strong>Forma de atendimento:</strong> com hora marcada.</li>
-              <li><strong>Atualizações:</strong> bloco pronto para inserir novas informações.</li>
-            </ul>
-          </div>
-          <aside class="info-box">
-            <h3>Diferenciais</h3>
-            <ul>
-              <li>Atendimento com hora marcada</li>
-              <li>Ambiente limpo, organizado e acolhedor</li>
-              <li>Estacionamento no prédio</li>
-              <li>Segurança do local excelente</li>
-              <li>Localização fácil na Vila Mariana</li>
-              <li>Excelente reputação nas avaliações</li>
-            </ul>
-          </aside>
-        </div>
-      </section>
-
-      <section class="procedures" id="procedimentos">
+      <section class="section why-section" id="porque" aria-labelledby="why-title">
         <div class="container">
-          <h2>Procedimentos oferecidos</h2>
-          <div class="cards">
-            <article class="card"><h3>Unha encravada</h3><p>Avaliação e tratamento com técnicas seguras para alívio da dor e prevenção.</p></article>
-            <article class="card"><h3>Calos e calosidades</h3><p>Remoção técnica e orientações para reduzir atrito e reincidência.</p></article>
-            <article class="card"><h3>Rachaduras plantares</h3><p>Cuidado terapêutico para hidratar e recuperar a pele dos pés.</p></article>
-            <article class="card"><h3>Cuidados preventivos</h3><p>Manutenção periódica para manter os pés saudáveis no dia a dia.</p></article>
-            <article class="card"><h3>Correção ungueal</h3><p>Técnicas para melhorar conforto e formato das unhas.</p></article>
-            <article class="card"><h3>Avaliação personalizada</h3><p>Análise individual para recomendar o cuidado ideal para cada caso.</p></article>
+          <div class="why-heading">
+            <p>Por que escolher a</p>
+            <h2 id="why-title">
+              <span>Podologia</span>
+              <strong>Akahoshi</strong>
+            </h2>
           </div>
-          <div class="hero-cta extra-cta-center"><a class="btn" href="https://wa.me/5511974725498" target="_blank" rel="noopener noreferrer">Agendar avaliação</a><a class="btn btn-outline" href="tel:+5511974725498">Ligar</a></div>
-        </div>
-      </section>
 
-      <section class="location" id="localizacao">
-        <div class="container two-col">
-          <div>
-            <h2>Localização e contato</h2>
-            <p><strong>Endereço:</strong> edifício Vila Mariana Tower - R. Cubatão, 929 - conjunto 35 - Vila Mariana, São Paulo - SP, 04013-043</p>
-            <p><strong>Telefone:</strong> <a href="tel:+5511974725498">(11) 97472-5498</a></p>
-            <div class="hero-cta"><a class="btn" href="https://www.google.com/maps/search/?api=1&query=PODOLOGIA+AKAHOSHI+VILA+MARIANA" target="_blank" rel="noopener noreferrer">Abrir no Google Maps</a><a class="btn btn-outline" href="https://wa.me/5511974725498" target="_blank" rel="noopener noreferrer">Agendar on-line</a></div>
-          </div>
-          <div class="map-wrapper">
-            <div class="map-box interactive-map" aria-label="Mapa interativo da clínica"><iframe title="Mapa da Podologia Akahoshi" src="https://www.google.com/maps?q=PODOLOGIA+AKAHOSHI+-+VILA+MARIANA,+R.+Cubat%C3%A3o,+929,+S%C3%A3o+Paulo&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
-            <p class="map-caption"><a class="review-link" href="https://www.google.com/maps/search/?api=1&query=PODOLOGIA+AKAHOSHI+VILA+MARIANA" target="_blank" rel="noopener noreferrer">Abrir rota no Google Maps</a></p>
+          <div class="benefits-grid">
+            <article class="benefit-card">
+              <div class="benefit-icon" aria-hidden="true">
+                <svg viewBox="0 0 64 64" role="img">
+                  <path d="M13 16h38a4 4 0 0 1 4 4v30a4 4 0 0 1-4 4H13a4 4 0 0 1-4-4V20a4 4 0 0 1 4-4Z" />
+                  <path d="M9 27h46M20 10v12M32 10v12M44 10v12" />
+                  <path d="M20 35h7v7h-7ZM38 35l4 4 7-8" />
+                </svg>
+              </div>
+              <h3>Atendimento com hora marcada</h3>
+              <p>Mais tranquilidade, pontualidade e tempo dedicado para avaliar cada paciente com calma.</p>
+            </article>
+            <article class="benefit-card">
+              <div class="benefit-icon" aria-hidden="true">
+                <svg viewBox="0 0 64 64" role="img">
+                  <path d="M31 7c-11 5-18 6-18 6v15c0 14 8 24 18 29 10-5 18-15 18-29V13s-7-1-18-6Z" />
+                  <path d="M31 15c-7 3-11 4-11 4v10c0 9 5 15 11 19 6-4 11-10 11-19V19s-4-1-11-4Z" />
+                </svg>
+              </div>
+              <h3>Biossegurança e higiene</h3>
+              <p>Ambiente limpo, materiais preparados com cuidado e protocolos pensados para sua segurança.</p>
+            </article>
+            <article class="benefit-card">
+              <div class="benefit-icon" aria-hidden="true">
+                <svg viewBox="0 0 64 64" role="img">
+                  <path d="M23 29c-7 0-12 6-12 13v10M41 29c7 0 12 6 12 13v10M32 33v19" />
+                  <circle cx="32" cy="16" r="8" />
+                  <path d="M43 45l5 5 9-12" />
+                </svg>
+              </div>
+              <h3>Cuidado ideal para idosos</h3>
+              <p>Orientações claras, fonte legível e atendimento paciente para quem precisa de mais conforto.</p>
+            </article>
+            <article class="benefit-card">
+              <div class="benefit-icon" aria-hidden="true">
+                <svg viewBox="0 0 64 64" role="img">
+                  <path d="M18 50c0-16 9-25 14-25s14 9 14 25" />
+                  <path d="M22 50h20M24 19c1-8 7-13 15-13 6 0 11 4 11 10 0 9-10 10-10 19" />
+                  <path d="M32 36c-5 0-10-4-10-10" />
+                </svg>
+              </div>
+              <h3>Tratamento personalizado</h3>
+              <p>Avaliação individual para entender dor, rotina, calçados e cuidados necessários no dia a dia.</p>
+            </article>
+            <article class="benefit-card">
+              <div class="benefit-icon" aria-hidden="true">
+                <svg viewBox="0 0 64 64" role="img">
+                  <path d="M11 43h12l8-20 8 29 7-18h7" />
+                  <path d="M32 10c-11 0-20 8-20 19 0 18 20 27 20 27s20-9 20-27c0-11-9-19-20-19Z" />
+                </svg>
+              </div>
+              <h3>Prevenção e bem-estar</h3>
+              <p>Além do procedimento, você recebe orientações para evitar recorrências e caminhar melhor.</p>
+            </article>
+            <article class="benefit-card">
+              <div class="benefit-icon" aria-hidden="true">
+                <svg viewBox="0 0 64 64" role="img">
+                  <path d="M14 38h11l8-8a8 8 0 0 1 11 0l1 1" />
+                  <path d="M24 51h12l14-14a5 5 0 0 0-7-7L32 41" />
+                  <path d="M10 34h10v21H10zM41 11l3 6 7 1-5 5 1 7-6-3-6 3 1-7-5-5 7-1 3-6Z" />
+                </svg>
+              </div>
+              <h3>Excelente reputação</h3>
+              <p>Clínica bem avaliada por pacientes que valorizam atenção, conforto e atendimento cuidadoso.</p>
+              <a class="benefit-link" href="https://www.google.com/maps/search/?api=1&query=PODOLOGIA+AKAHOSHI+VILA+MARIANA" target="_blank" rel="noopener noreferrer">Ver avaliações no Google</a>
+            </article>
           </div>
         </div>
       </section>
     </main>
 
-    <a class="whatsapp-float" href="https://wa.me/5511974725498" target="_blank" rel="noopener noreferrer" aria-label="Agendar agora no WhatsApp">Agendar agora</a>
-
     <footer class="footer">
-      <div class="container footer-content">
-        <p>© 2026 PODOLOGIA AKAHOSHI - VILA MARIANA.</p>
-        <a id="backToTop" href="#inicio">Voltar ao topo ↑</a>
+      <div class="container footer-shell">
+        <div class="footer-main">
+          <div class="footer-identity">
+            <a class="footer-logo" href="#cabecalho" aria-label="Voltar ao topo">
+              <span class="footer-logo-mark">PA</span>
+              <span class="footer-logo-text">Podologia Akahoshi</span>
+            </a>
+            <span class="footer-pill">Vila Mariana</span>
+          </div>
+
+          <div class="footer-social" aria-label="Redes sociais">
+            <a href="https://www.instagram.com/podologiaakahoshi/" target="_blank" rel="noopener noreferrer" aria-label="Instagram da Podologia Akahoshi">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5Z" />
+                <path d="M8.8 12a3.2 3.2 0 1 0 6.4 0 3.2 3.2 0 0 0-6.4 0Z" />
+                <path d="M17.5 6.5h.01" />
+              </svg>
+            </a>
+            <a href="https://wa.me/5511974725498" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp da Podologia Akahoshi">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 3a8.7 8.7 0 0 0-7.5 13.1L3.6 21l5-1.3A8.7 8.7 0 1 0 12 3Z" />
+                <path d="M9.2 8.4c.2-.4.4-.5.8-.5h.5c.2 0 .4.1.5.4l.8 1.8c.1.3.1.5-.1.7l-.4.5c-.1.2-.1.3 0 .5.5.9 1.2 1.6 2.1 2.1.2.1.4.1.5 0l.6-.5c.2-.2.4-.2.7-.1l1.7.8c.3.1.4.3.4.6v.4c0 .5-.2.8-.6 1-2.1.8-5.9-1.1-7.6-4.4-.8-1.6-1-2.8-.4-3.3Z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>Podologia Akahoshi © 2026. Todos os direitos reservados.</p>
+          <nav class="footer-links" aria-label="Links do rodapé">
+            <a href="#sobre">Sobre nós</a>
+            <a href="#localizacao">Localização</a>
+            <a href="#porque">Por que escolher</a>
+            <a href="https://www.google.com/maps/search/?api=1&query=PODOLOGIA+AKAHOSHI+VILA+MARIANA" target="_blank" rel="noopener noreferrer">Avaliações</a>
+            <a href="tel:+5511974725498">Contato</a>
+          </nav>
+        </div>
       </div>
     </footer>
+
+    <a class="whatsapp-float" href="https://wa.me/5511974725498" target="_blank" rel="noopener noreferrer" aria-label="Agendar pelo WhatsApp">
+      Agendar pelo WhatsApp
+    </a>
 
     <script src="assets/js/script.js"></script>
   </body>
