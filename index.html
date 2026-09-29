@@ -14,7 +14,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/styles.css?v=1.1-soft-whites" />
   </head>
   <body>
     <header class="site-header" id="cabecalho">
@@ -118,19 +118,56 @@
         </div>
       </section>
 
+      <section class="auto-gallery-section" aria-labelledby="gallery-title">
+        <div class="container">
+          <div class="gallery-intro">
+            <p class="gallery-kicker">Galeria em movimento</p>
+            <h2 id="gallery-title">Cuidado completo para seus pés, com conforto e segurança.</h2>
+            <p>
+              Espaço reservado para imagens reais da clínica, atendimentos e estrutura.
+              Por enquanto, usamos modelos visuais temporários.
+            </p>
+          </div>
+
+          <div class="gallery-window" aria-label="Carrossel automático de imagens ilustrativas">
+            <div class="gallery-track">
+              <div class="gallery-set">
+                <figure class="gallery-card gallery-card-1"><span>Imagem 01</span></figure>
+                <figure class="gallery-card gallery-card-2"><span>Imagem 02</span></figure>
+                <figure class="gallery-card gallery-card-3"><span>Imagem 03</span></figure>
+                <figure class="gallery-card gallery-card-4"><span>Imagem 04</span></figure>
+                <figure class="gallery-card gallery-card-5"><span>Imagem 05</span></figure>
+                <figure class="gallery-card gallery-card-6"><span>Imagem 06</span></figure>
+                <figure class="gallery-card gallery-card-7"><span>Imagem 07</span></figure>
+                <figure class="gallery-card gallery-card-8"><span>Imagem 08</span></figure>
+              </div>
+              <div class="gallery-set" aria-hidden="true">
+                <figure class="gallery-card gallery-card-1"><span>Imagem 01</span></figure>
+                <figure class="gallery-card gallery-card-2"><span>Imagem 02</span></figure>
+                <figure class="gallery-card gallery-card-3"><span>Imagem 03</span></figure>
+                <figure class="gallery-card gallery-card-4"><span>Imagem 04</span></figure>
+                <figure class="gallery-card gallery-card-5"><span>Imagem 05</span></figure>
+                <figure class="gallery-card gallery-card-6"><span>Imagem 06</span></figure>
+                <figure class="gallery-card gallery-card-7"><span>Imagem 07</span></figure>
+                <figure class="gallery-card gallery-card-8"><span>Imagem 08</span></figure>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section class="section location-section" id="localizacao" aria-labelledby="location-title">
         <div class="container">
           <div class="section-heading">
             <p class="eyebrow">Localização</p>
-            <h2 id="location-title">Estamos na Vila Mariana, com acesso fácil por metrô, ônibus e carro.</h2>
+            <h2 id="location-title">Fácil acesso na Vila Mariana</h2>
             <p>
-              Edifício Vila Mariana Tower - R. Cubatão, 929 - conjunto 35 - Vila Mariana,
-              São Paulo - SP, 04013-043.
+              Atendimento no Edifício Vila Mariana Tower, em uma região tranquila e bem localizada
+              para chegar com conforto.
             </p>
             <p>
-              A região tem acesso simples por vias importantes como Vergueiro, Domingos de Morais e
-              23 de Maio. Para quem vem de transporte público, há conexão pelas estações Ana Rosa,
-              Paraíso e Vila Mariana, além de pontos de ônibus próximos à Rua Cubatão.
+              R. Cubatão, 929 - conjunto 35, Vila Mariana, São Paulo - SP. Próximo às estações
+              Ana Rosa, Paraíso e Vila Mariana, com ônibus nas redondezas e rota fácil pelo Google Maps.
             </p>
           </div>
 
@@ -148,6 +185,14 @@
               <h3>Informações para visita</h3>
               <p><strong>Telefone:</strong> <a href="tel:+5511974725498">(11) 97472-5498</a></p>
               <p><strong>Atendimento:</strong> segunda a sábado, com hora marcada.</p>
+              <div class="hours-card" aria-label="Horário de funcionamento">
+                <strong>Horário de funcionamento</strong>
+                <dl>
+                  <div><dt>Terça a sexta</dt><dd>09:00–17:00</dd></div>
+                  <div><dt>Sábado</dt><dd>09:00–16:00</dd></div>
+                  <div><dt>Domingo e segunda</dt><dd>Fechado</dd></div>
+                </dl>
+              </div>
               <p><strong>Referência:</strong> Vila Mariana Tower, com acesso pela Rua Cubatão e proximidade com metrô, ônibus e vias principais.</p>
               <a class="btn btn-primary full-width" href="https://www.google.com/maps/search/?api=1&query=PODOLOGIA+AKAHOSHI+VILA+MARIANA" target="_blank" rel="noopener noreferrer">
                 Abrir rota no Google Maps

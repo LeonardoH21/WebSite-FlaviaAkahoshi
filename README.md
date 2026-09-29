@@ -6,14 +6,15 @@ O projeto tem como objetivo criar uma presença digital clara, elegante e respon
 
 ## Versão Atual
 
-**1.1.0**
+**1.3.0**
 
 ## O Que Está Sendo Desenvolvido
 
 - Layout responsivo com foco em boa leitura para adultos e idosos.
 - Cabeçalho fixo translúcido com navegação por âncoras.
 - Banner inicial com chamada para agendamento e localização.
-- Seções institucionais de apresentação, localização e diferenciais do serviço.
+- Carrossel automático para futura galeria de imagens reais da clínica.
+- Seções institucionais de apresentação, localização, horário de atendimento e diferenciais do serviço.
 - Mapa incorporado do Google Maps com botão de rota.
 - Links para avaliações reais no Google.
 - Rodapé escuro com identidade visual, contato e redes sociais.
@@ -21,25 +22,6 @@ O projeto tem como objetivo criar uma presença digital clara, elegante e respon
 ## Identidade Visual
 
 O design segue uma proposta voltada para saúde, cuidado e acolhimento, usando tons verdes, menta, preto e detalhes em azul-turquesa para transmitir higiene, segurança e profissionalismo.
-
-## Estrutura
-
-```text
-.
-├── index.html
-├── VERSION
-├── assets
-│   ├── css
-│   │   └── styles.css
-│   ├── images
-│   │   ├── floral-corner.svg
-│   │   └── stars-5.svg
-│   └── js
-│       └── script.js
-├── .gitignore
-├── .nojekyll
-└── README.md
-```
 
 ## Como Abrir Localmente
 
@@ -60,4 +42,4 @@ Para funcionar corretamente, o arquivo `index.html` deve permanecer na raiz do p
 
 ## Status
 
-Projeto em evolução contínua. A versão `1.1.0` consolida a identidade visual inicial, responsividade, melhorias no cabeçalho, seção de localização, diferenciais do serviço e rodapé.
+Projeto em evolução contínua. A versão `1.3.0` consolida ajustes visuais, carrossel automático, horários de atendimento e refinamentos de leitura/responsividade.
