@@ -6,7 +6,7 @@ O projeto tem como objetivo criar uma presença digital clara, elegante e respon
 
 ## Versão Atual
 
-**1.3.0**
+**1.4.0**
 
 ## O Que Está Sendo Desenvolvido
 
@@ -42,4 +42,4 @@ Para funcionar corretamente, o arquivo `index.html` deve permanecer na raiz do p
 
 ## Status
 
-Projeto em evolução contínua. A versão `1.3.0` consolida ajustes visuais, carrossel automático, horários de atendimento e refinamentos de leitura/responsividade.
+Projeto em evolução contínua. A versão `1.4.0` consolida ajustes visuais, carrossel automático, horários de atendimento, footer informativo e refinamentos de leitura/responsividade.

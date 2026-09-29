@@ -1183,6 +1183,56 @@ p {
   stroke-width: 1.9;
 }
 
+.footer-info-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.footer-info-card {
+  min-height: 178px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 0.85rem;
+  padding: 1.15rem;
+  border: 1px solid rgba(71, 210, 207, 0.2);
+  border-radius: 24px;
+  background:
+    linear-gradient(145deg, rgba(71, 210, 207, 0.08), rgba(217, 231, 223, 0.03)),
+    #030909;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.06),
+    0 18px 42px rgba(0, 0, 0, 0.22);
+}
+
+.footer-info-card span {
+  color: #47d2cf;
+  font-size: 0.82rem;
+  font-weight: 900;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.footer-info-card p {
+  margin: 0;
+  color: #c2d0c8;
+  font-size: 0.98rem;
+  line-height: 1.55;
+}
+
+.footer-info-card a {
+  width: fit-content;
+  color: #d9e7df;
+  font-size: 0.94rem;
+  font-weight: 900;
+  text-underline-offset: 0.28rem;
+}
+
+.footer-info-card a:hover {
+  color: #47d2cf;
+}
+
 .footer-bottom {
   align-items: flex-end;
   padding-top: 1.2rem;
@@ -1234,6 +1284,10 @@ p {
 @media (max-width: 1020px) {
   .split-section,
   .map-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-info-grid {
     grid-template-columns: 1fr;
   }
 
